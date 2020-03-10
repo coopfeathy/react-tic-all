@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { BrowserRouter,Switch, Route, Link, HashRouter } from "react-router-dom";
+import { BrowserRouter,Switch, Route, Link,  } from "react-router-dom";
 
 import "./index.css"
 
@@ -8,7 +8,6 @@ import Home from './screens/home/home';
 class App extends Component {
   render() {
     return (
-      <HashRouter>
       <BrowserRouter>
         <div id="header">
           <Link className="link" to="/">Home</Link>
@@ -35,7 +34,6 @@ class App extends Component {
         </Switch>
 
       </BrowserRouter>
-      </HashRouter>
     )
   }
 }
