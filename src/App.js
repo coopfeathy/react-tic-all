@@ -4,6 +4,7 @@ import { BrowserRouter,Switch, Route, Link,  } from "react-router-dom";
 import "./index.css"
 
 import Home from './screens/home/home';
+import Regular from './screens/regular/regular';
 
 class App extends Component {
   render() {
@@ -23,7 +24,7 @@ class App extends Component {
             <Home />
           </Route>
           <Route path="/regular">
-            <h1>this is regular</h1>
+            <Regular/>
           </Route>
           <Route path="/fiveXfive">
             <h1>this is 5X5</h1>

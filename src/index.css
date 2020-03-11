@@ -4,16 +4,12 @@
   padding: 0;
 }
 
-body {
- 
-}
 
 #header{
   min-height: 100px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  box-shadow: black;
 }
 
 .link{
